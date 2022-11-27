@@ -23,16 +23,26 @@
     margin-left: 27px;
     z-index: 2;
     visibility: visible;
-    /* [disabled]background-color: #000000; */
 }
 .stock {
     position: absolute;
-    width: 116px;
+    width: 109px;
     height: 46px;
     margin-bottom: 0px;
-    margin-top: 82px;
-    margin-left: 82px;
-	opacity: 0.5
+    margin-top: 80px;
+    margin-left: 79px;
+	opacity: 0.1
+}
+.stock:hover {
+    position: absolute;
+    width: 108.5px;
+    height: 47.5px;
+    margin-bottom: 0px;
+    margin-top: 78px;
+    margin-left: 79px;
+    opacity: 0.8;
+    border: thin solid #7EA4C8;
+    border-radius: 6px;
 }
 .Stock {
     width: 100%;
@@ -40,6 +50,7 @@
     z-index: 0;
     float: left;
 }
+
 .flow {
     width: 115px;
     height: 46px;
@@ -48,35 +59,76 @@
     margin-top: 135px;
 	opacity: 0.1
 }
-
+.flow:hover {
+    width: 118px;
+    height: 43px;
+    position: absolute;
+    margin-left: 77px;
+    margin-top: 135px;
+    border-radius: 6px;
+    border: thin solid #7EA4C8;
+    opacity: 0.8
+}
 .DV {
-    width: 234px;
+    width: 237px;
     height: 46px;
     position: absolute;
-    margin-left: 83px;
-    margin-top: 190px;
+    margin-left: 79px;
+    margin-top: 187px;
 	opacity: 0.5
 }
 
+.DV:hover {
+    width: 237.5px;
+    height: 44px;
+    position: absolute;
+    margin-left: 78px;
+    margin-top: 187px;
+	border-radius: 6px;
+    border: thin solid #7EA4C8;
+    opacity: 0.8;
+
+}
+
 .Link {
-    width: 92px;
+    width: 96px;
     height: 46px;
     position: absolute;
-    margin-left: 82px;
-    margin-top: 240px;
+    margin-left: 75px;
+    margin-top: 236px;
 	opacity: 0.1
+}
+.Link:hover {
+    width: 96px;
+    height: 44px;
+    position: absolute;
+    margin-left: 75.5px;
+    margin-top: 236px;
+	border-radius: 6px;
+    border: thin solid #7EA4C8;
+    opacity: 0.8;
 }
 .LINK {
     width: 100%;
     height: 100%;
 }
 .p {
-    width: 160px;
+    width: 163px;
     height: 46px;
     position: absolute;
-    margin-left: 81px;
-    margin-top: 293px;
-	opacity: 0.1
+    margin-left: 77px;
+    margin-top: 288px;
+	
+}
+.p:hover {
+    width: 163.5px;
+    height: 46px;
+    position: absolute;
+    margin-left: 76px;
+    margin-top: 287px;
+	border-radius: 6px;
+    border: thin solid #7EA4C8;
+    opacity: 0.8;
 }
 .img0 {
     width: 100%;
